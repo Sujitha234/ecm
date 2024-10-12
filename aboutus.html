@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .about-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        .about-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .about-content {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .about-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .footer-con{
+    background-color: #171717 !important;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    padding: 5rem 2rem;
+}
+.footer-card
+{
+    background-color: #171717 !important;
+    color: white !important;
+    height: 100%;
+    padding: 0 1.5rem;
+    margin: 0.5rem 0;
+}
+.footer-img-warpper
+{
+   
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 !important;
+    cursor: pointer;
+}
+.footer-img-warpper  img:nth-child(1){
+    width: 60px;
+    height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper  img:nth-child(2){
+    width: 90px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-card ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-card ul li{
+    text-align: left !important;
+    text-wrap: nowrap;
+    padding: 0.3rem 0;
+    color: #939393;
+    cursor: pointer;
+    width:100%;
+}
+.footer-card ul li:hover
+{
+    color: blue;
+}
+.footer-card h6{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.icon-wrapper
+{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+.icon-wrapper i{
+    margin-right:1rem;
+}
+.icon-wrapper i:hover{
+    color: blue;
+}
+
+@media screen and (max-width:756px) {
+    .footer-con
+    {
+        padding: 3rem 0.5rem;
+    }
+}
+
+/* nav bar style start */
+#navbar
+{
+    background-color: #171717;
+}
+.navbar-brand
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    padding:0 1rem;
+}
+.navbar-brand span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin:0 1rem;
+}
+.navbar-brand  img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+#myNavbar ul li a
+{
+    color: white !important;
+    font-weight: 600;
+   
+}
+.navbar-toggler
+{
+    padding:0.5rem 1rem !important;
+}
+.nav-tog-icon span
+{
+    color: white !important;
+}
+.dropdown
+{
+    padding-top:3px ;
+}
+#dropdownMenuLink
+{
+    border: none !important;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+}
+@media screen and (max-width:993px) 
+{
+    #dropdownMenuLink
+    {
+        border: none !important;
+        padding-left: 0;
+    }
+    .nav-lbtn
+    {
+        width: 100px;
+    }
+}
+.dropdown-menu
+{
+    background-color: #171717!important;
+}
+.dropdown-menu li .nav-link:hover
+{
+    transform: translateX(5px);
+    transition: .3s ease-in-out;
+}
+/* nav style end */
+    </style>
+</head>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>   
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-tog-icon" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+              </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="course.html">Courses</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="nav-link" href="racket.html">Racket</a></li>
+                                  <li><a class="nav-link" href="shoes.html">Shoes</a></li>
+                                  <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                                  <li><a class="nav-link" href="combo.html">Combos</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact us</a>
+                        </li>
+                        <button type="button" class="btn btn-dark nav-lbtn" onClick="openpage('login.html')">Login</button>
+                    </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <br><br><br><br>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <img src="https://via.placeholder.com/500x400" alt="About Us" class="about-image">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="about-title">About Us</h2>
+                    <p class="about-content">
+                        Welcome to E-Shop, your go-to destination for premium quality products. We specialize in offering a wide range of sports items like badminton and shoes. Our mission is to provide the best products at unbeatable prices, ensuring customer satisfaction at every step.
+                    </p>
+                    <p class="about-content">
+                        Founded in 2024, E-Shop has quickly become a trusted name in the industry. We are committed to expanding our product line and services to meet all your needs. Thank you for choosing E-Shop, and we look forward to serving you!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <br><br><br>
+<footer class="footer-con">
+    <div class="footer-content-con">
+        <div class="row">
+            <div class="col-8 col-md">
+                <div class="card footer-card">
+                    <div class="footer-img-warpper">
+                        <a  href="index.html">
+                            <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                            <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>  
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="card footer-card">
+                    <h6>Support</h6>
+                    <ul>
+                        <li><a>Track tour Order</a></li>
+                        <li><a>Contact Us</a></li>
+                        <li><a>Returns</a></li>
+                        <li><a>Shipping</a></li>
+                        <li><a>Payment Methods</a></li>
+                        <li><a>LN Protect Policy</a></li>
+                        <li><a>Terms and Conditions</a></li>
+                        <li><a>Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="card footer-card">
+                    <h6>Self Service</h6>
+                    <ul>
+                        <li>
+                            <a>Racket Buying Guide</a>
+                        </li>
+                        <li><a>Badminton String Guide</a></li>
+                        <li><a>Feather Shuttlecock Guide</a></li>
+                        <li><a>FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="card footer-card">
+                    <h6>Payment Methods</h6>
+                    <ul>
+                        <li>
+                           <a> VISA Credit/Debit</a>
+                        </li>
+                        <li><a>Mastered Credit/Debit</a></li>
+                        <li><a>UPI</a></li>
+                        <li><a>Cash on Delivery below 5k</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="card footer-card">
+                    <h6>stalk us on</h6>
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>

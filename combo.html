@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combo</title>
+
+    <link rel="stylesheet" href="./css/combo.css">
+
+     <!-- bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- fonts -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>   
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-tog-icon" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+              </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="course.html">Courses</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="nav-link" href="racket.html">Racket</a></li>
+                                  <li><a class="nav-link" href="shoes.html">Shoes</a></li>
+                                  <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                                  <li><a class="nav-link" href="combo.html">Combos</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact us</a>
+                        </li>
+                        <button type="button" class="btn btn-dark nav-lbtn" onClick="openpage('login.html')">Login</button>
+                    </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <section class="combo-hero-sec">
+            <div class="combo-hero-img">
+                <img src="./images/combo-1.jpg" alt="combo-hero" height="50px" width="50px"/>
+            </div>
+           
+        </section>
+        <!-- first combo -->
+        <section class="combo-acc-section">
+            <h1 class="combo-text">Top Deals on Badminton Rackets</h1>
+            <p>Grab Premium Rackets at Unbeatable Prices – Only for a Limited Time!</p>
+            <div class="myswiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/best seller/bs-1.png" alt="coll-1" />
+                            <div class="combo-card-info">
+                                <h3>Tectonic 3R-4U</h3>
+                                <p><i class="fa-solid fa-indian-rupee-sign"></i> 2,590.00 <span><i class="fa-solid fa-indian-rupee-sign"></i>4,990.00</span></p>
+                                <p>Attacking / 77 gms. /<span class="combo-color-circle" style="background-color:#D5BC68;"></span>+6</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/best seller/bs-1.png" alt="coll-1" />
+                            <div class="combo-card-info">
+                                <h3>Windstrom 72 S</h3>
+                                <p><i class="fa-solid fa-indian-rupee-sign"></i> 7,590.00 <span><i class="fa-solid fa-indian-rupee-sign"></i>9,590.00</span></p>
+                                <p>Attacking / 77 gms. /<span class="combo-color-circle" style="background-color:#3A5AB2;"></span>+6</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/best seller/bs-1.png" alt="coll-1" />
+                            <div class="combo-card-info">
+                                <h3>Blaze 100-78 Grams</h3>
+                                <p><i class="fa-solid fa-indian-rupee-sign"></i> 1500.00 <span><i class="fa-solid fa-indian-rupee-sign"></i>2990.00</span></p>
+                                <p>Attacking / 77 gms. /<span class="combo-color-circle" style="background-color:#3A5AB2;"></span>+6</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- second combo -->
+        <section class="combo-racket-section">
+            <h1>Play Like a Pro with This All-in-One Racket Combo</h1>
+            <p>All You Need to Elevate Your Game: Premium Racket + Accessories.</p>
+            <div class="myswiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (8).png" alt="coll-1" />
+                            <span class="badge">save 45%</span>
+                            <div class="combo-racket-info">
+                               <p class="brand-name">Yonex</p>
+                               <P class="description">YONEX GR 303 Combo Badminton Racquet Set of 2 <br>(Black, Red)</P>
+                               <p class="price">Rs.900.00<span>Rs.2300.00</span></p>
+                                <p class="review">
+                                    <span class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span>1 review</span>
+                                </p>
+                               <p class="rc-btn">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (9).png" alt="coll-1" />
+                            <span class="badge">save 50%</span>
+                            <div class="combo-racket-info">
+                                <p class="brand-name">Sports Goods Market</p>
+                                <P class="description">TOPPER Badminton Racket Funtime Combo Set with Bag (Pack of 2 Rackets)</P>
+                                <p class="price">Rs.1200.00<span>Rs.2000.00</span></p>
+                                 <p class="review">
+                                     <span class="star">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     </span>
+                                     <span>2 review</span>
+                                 </p>
+                                <p class="rc-btn">Add to Cart</p>
+                             </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (10).png" alt="coll-1" />
+                            <span class="badge">save 45%</span>
+                            <div class="combo-racket-info">
+                                <p class="brand-name">Guru Karbon</p>
+                                <P class="description">Guru Karbon BR03 COMBO-03 Badminton Racket Set Pack of Two with Two Cover & 3 Shuttlecock </P>
+                                <p class="price">Rs.2300.00<span>Rs.3000.00</span></p>
+                                 <p class="review">
+                                     <span class="star">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     </span>
+                                     <span>1 review</span>
+                                 </p>
+                                <p class="rc-btn">Add to Cart</p>
+                             </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+         <!-- third combo -->
+         <section class="combo-racket-section">
+            <h1>Double the Comfort, Double the Speed  Shoes Combo Offer</h1>
+            <p>Racket Precision Meets Footwork Speed – The Perfect Combo for Badminton Players!</p>
+            <div class="myswiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (11).png" alt="coll-1" />
+                            <span class="badge">save 45%</span>
+                            <div class="combo-racket-info">
+                               <p class="brand-name">Yonex</p>
+                               <P class="description"> Men Sports Shoes - Combo Pack of 2 Casual, Badminton Shoes, </P>
+                               <p class="price">Rs.1300.00<span>Rs.2500.00</span></p>
+                                <p class="review">
+                                    <span class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span>1 review</span>
+                                </p>
+                               <p class="rc-btn">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (12).png" alt="coll-1" />
+                            <span class="badge">save 50%</span>
+                            <div class="combo-racket-info">
+                                <p class="brand-name">Sports Goods Market</p>
+                                <P class="description"> Men Sports Shoes - Combo Pack of 2 Casual, Badminton Shoes </P>
+                                <p class="price">Rs.1200.00<span>Rs.2000.00</span></p>
+                                 <p class="review">
+                                     <span class="star">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     </span>
+                                     <span>2 review</span>
+                                 </p>
+                                <p class="rc-btn">Add to Cart</p>
+                             </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (13).png" alt="coll-1" />
+                            <span class="badge">save 45%</span>
+                            <div class="combo-racket-info">
+                                <p class="brand-name">Yonex</p>
+                                <P class="description">Homessing Men&Boys Sport Shoes Combo of 2</P>
+                                <p class="price">Rs.2300.00<span>Rs.3000.00</span></p>
+                                 <p class="review">
+                                     <span class="star">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     </span>
+                                     <span>1 review</span>
+                                 </p>
+                                <p class="rc-btn">Add to Cart</p>
+                             </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+         <!-- forth combo -->
+         <section class="combo-racket-section">
+            <h1>Carry It All: Kitbag Combo for the Complete Player</h1>
+            <p>Organize Your Gear with Style – Kitbag Combos Available Now</p>
+            <div class="myswiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (14).png" alt="coll-1" />
+                            <span class="badge">save 45%</span>
+                            <div class="combo-racket-info">
+                               <p class="brand-name">Li-Ning</p>
+                               <P class="description">Li-Ning Panther Double Zipper Polyester Badminton Kit Bag (Black) Panther Double Zipper Polyester Badminton Kit Bag (Royal Blue)</P>
+                               <p class="price">Rs.2100.00<span>Rs.3000.00</span></p>
+                                <p class="review">
+                                    <span class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span>1 review</span>
+                                </p>
+                               <p class="rc-btn">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (15).png" alt="coll-1" />
+                            <span class="badge">save 50%</span>
+                            <div class="combo-racket-info">
+                                <p class="brand-name">Li-Ning</p>
+                                <P class="description">LI-NING Panther Double Zipper Polyester Badminton Kit Bag (Royal Blue) & Li-Ning All Star Single Zip Badminton Polyester Kit Bag (Navy)</P>
+                                <p class="price">Rs.1000.00<span>Rs.2000.00</span></p>
+                                 <p class="review">
+                                     <span class="star">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     </span>
+                                     <span>2 review</span>
+                                 </p>
+                                <p class="rc-btn">Add to Cart</p>
+                             </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-item">
+                        <div class="card combo-racket-card m-auto" onClick="openpage('productspec.html')">
+                            <img src="./images/combo/image (16).png" alt="coll-1" />
+                            <span class="badge">save 45%</span>
+                            <div class="combo-racket-info">
+                                <p class="brand-name">Li-Ning</p>
+                                <P class="description">Li-Ning Panther Double Zipper Polyester Badminton Kit Bag (Black) Panther Double Zipper Polyester Badminton Kit Bag (Royal Blue)</P>
+                                <p class="price">Rs.2500.00<span>Rs.3000.00</span></p>
+                                 <p class="review">
+                                     <span class="star">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     </span>
+                                     <span>1 review</span>
+                                 </p>
+                                <p class="rc-btn">Add to Cart</p>
+                             </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    <footer class="footer-con">
+        <div class="footer-content-con">
+            <div class="row">
+                <div class="col-8 col-md">
+                    <div class="card footer-card">
+                        <div class="footer-img-warpper">
+                            <a  href="index.html">
+                                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Support</h6>
+                        <ul>
+                            <li><a>Track tour Order</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Returns</a></li>
+                            <li><a>Shipping</a></li>
+                            <li><a>Payment Methods</a></li>
+                            <li><a>LN Protect Policy</a></li>
+                            <li><a>Terms and Conditions</a></li>
+                            <li><a>Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Self Service</h6>
+                        <ul>
+                            <li>
+                                <a>Racket Buying Guide</a>
+                            </li>
+                            <li><a>Badminton String Guide</a></li>
+                            <li><a>Feather Shuttlecock Guide</a></li>
+                            <li><a>FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Payment Methods</h6>
+                        <ul>
+                            <li>
+                               <a> VISA Credit/Debit</a>
+                            </li>
+                            <li><a>Mastered Credit/Debit</a></li>
+                            <li><a>UPI</a></li>
+                            <li><a>Cash on Delivery below 5k</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>stalk us on</h6>
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./scroll.js"></script>
+     <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+        const myswiper = new Swiper('.myswiper', {
+            slidesPerView: 1,
+            spaceBetween:20,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+        450:{
+            slidesPerView:1,
+            spaceBetween:10,
+        },
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        800: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+});
+     </script>
+</body>
+</html>

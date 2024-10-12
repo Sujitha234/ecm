@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white !important;
+}
+
+.btn1{
+    text-align: center;
+   border-color: #CBFB45;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 74px;
+}
+
+.header-link ul {
+    margin-top: 34px;
+    gap: 38px;
+    margin-right: 50px;
+  
+}
+
+.header-link ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+@media(max-width :980px) {
+    .header-link ul {
+        gap: 0px;
+    }
+}
+
+.header-content {
+
+    margin-top: 90px;
+    background-color: #171717;
+    border-radius: 20px;
+
+}
+
+.header-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.header-content-img img {
+    width: 550px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.header-content-col1 h1 {
+    color: #FFF2F2;
+}
+
+.header-content-col1 button {
+    background-color: #CBFB45;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 29px;
+    font-weight: 900;
+    font-family: Poppins;
+    border-radius: 29px;
+}
+
+
+.card-item {
+    width: 290px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-item p {
+    margin-top: 40px;
+}
+
+.card-item-wrapper {
+    margin: 10px 0;
+    background-color: #171717;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.course-categories h1 {
+    font-size: 60px;
+}
+
+.card img {
+    border-radius: 30px;
+}
+
+.card-body {
+    font-weight: 600;
+}
+
+.last-racket h1 {
+    font-size: 75px;
+}
+
+.last-racket p {
+    text-align: justify;
+}
+
+.Actual-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.racket-box1 {
+    position: relative;
+    left: 50px;
+}
+
+.racket-box2 {
+    position: relative;
+    right: 70px;
+    top: 40px;
+}
+
+.racket-box3 {
+    position: relative;
+    left: 50px;
+}
+
+.racket-box4 {
+    position: relative;
+    right: 60px;
+    top: 40px;
+}
+
+.last-racket {
+    position: relative;
+    top: 130px;
+    left: 40px;
+}
+
+@media (max-width:1400px) {
+    .racket-box1 {
+        left: 0;
+    }
+
+    .racket-box2 {
+        right: 0;
+        top: 0;
+    }
+
+    .racket-box3 {
+        left: 0;
+    }
+
+    .racket-box4 {
+        right: 0;
+        top: 0;
+    }
+
+    .last-racket {
+        top: 0;
+        left: 0;
+    }
+}
+
+@media (max-width: 988px) {
+    .racket-box1 {
+        left: 0;
+    }
+
+    .racket-box2 {
+        right: 60px;
+        top: 50px;
+    }
+
+    .racket-box3 {
+        left: 0;
+    }
+
+    .racket-box4 {
+        right: 50px;
+        top: 50px;
+    }
+
+    .last-racket {
+        top: 0;
+
+    }
+    .course-categories .frame53{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }   
+}
+
+@media (max-width:768px) {
+    .racket-box1 {
+        left: 0;
+    }
+
+    .racket-box2 {
+        right: 0;
+        top: 0;
+    }
+
+    .racket-box3 {
+        left: 15px;
+    }
+
+    .racket-box4 {
+        right: 0;
+        top: 0;
+        left: 15px;
+    }
+
+    .last-racket {
+        top: 0;
+        left: 0;
+    }
+}
+
+.shoes {
+    text-align: center;
+}
+
+.shoes h4 {
+    font-size: 50px;
+}
+
+.shoes p {
+    font-size: 20px;
+}
+
+.shoes-card {
+    border-radius: 930px;
+}
+
+.shoes-card img {
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.shoes-card1 {
+    position: relative;
+    margin-left: 200px;
+}
+
+.shoes-card4 {
+    position: relative;
+    margin-left: 150px;
+}
+
+.shoes-card5 {
+    position: relative;
+    margin-left: -60px;
+}
+
+@media (max-width: 988px) {
+    .shoes-card1 {
+        margin-left: 0;
+    }
+
+    .shoes-card4 {
+        margin-left: 0px;
+        left: 10px;
+    }
+
+    .shoes-card5 {
+        margin-left: 0px;
+        left: 10px;
+    }
+}
+
+/* .aboutus img {
+    width: 300px !important;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+ .about-us-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.about-second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-second-content button {
+    background-color: #CBFB45;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 29px;
+    font-weight: 900;
+    font-family: Poppins;
+    border-radius: 29px;
+}
+
+.about-second-content p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.about-second-content h1 {
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.about1 {
+    position: relative;
+    right: 60px;
+    top: 100px;
+}
+
+.about2 {
+    position: relative;
+    left: 80px;
+}
+
+@media (max-width: 520px) {
+    .about1 {
+        right: 0;
+        top: 0;
+    }
+
+    .about2 {
+        left: 0;
+    }
+}
+
+.Popular-courses {
+    color: black;
+    margin-top: 50px !important;
+}
+
+
+
+.course-instructor-info {
+    display: flex;
+    gap: 17px;
+    font-size: 13px;
+
+}
+
+.courses1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.courses1 button {
+    margin-top: 215px;
+    border: none;
+    color: black;
+    font-weight: 600;
+    background-color: #CBFB45;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.courses1 p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.course-rating {
+    color: #FBDE45;
+}
+
+.img-fluid{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 150px;
+}
+
+
+.logo{
+    width: 150px;
+    margin-top: 0px;
+}
+
+.text{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+#content{
+    margin-top: -5px;
+}
+
+@media(max-width:600px){
+    .logo{
+        margin-left: -10px;
+    }
+
+    .header-content-img{
+        margin-top: -1550px;
+
+
+    }
+
+    .header-content-col1{
+        margin-top: 600px;
+    }
+}
+
+.card-item-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fa-icon{
+    margin-left: -5px;
+}
+
+#items{
+    margin-top: 30px;
+    margin-left: 80px;
+}

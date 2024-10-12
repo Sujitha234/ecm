@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.colors {
+    display: flex;
+}
+
+.colors span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.c1 {
+    background: #A31523;
+    border: 2px solid #FFFFFF
+}
+
+.c2 {
+    background: #995216;
+    border: 2px solid #FFFFFF
+}
+
+.c3 {
+    background: #BBA4C2;
+    border: 2px solid #FFFFFF
+}
+
+.c4 {
+    background: #47DBCD;
+    border: 2px solid #FFFFFF
+}
+
+.size {
+    display: flex;
+}
+
+.size span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #333;
+    margin: 0 5px;
+    cursor: pointer;
+    background: lightgray;
+    border-radius: 50%;
+    color: black;
+    border: 2px solid #FFFFFF
+}
+
+.addcard span {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.addcard .first-1 span {
+    padding: 10px 28px;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.stars p {
+    color: gray;
+
+}
+
+.stars i {
+    color: #FBDE45;
+}
+
+.shoe-para {
+    text-align: justify;
+}
+
+.shoe-btn {
+    width: Hug (200px)px;
+    height: Hug (68px)px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    background: #CBFB45;
+    margin-top: -50px;  
+}
+.add-to-wish i{
+    color:#CBFB45;
+}
+.shoeFotter{
+    display: flex;
+    justify-content: space-between;
+}
+.shoeFotter h6{
+    color: #CBFB45;
+}
+.shoeFotter i,span{
+    color:white;
+}
+.section-3 h3 , .section-5 h3{
+    color: #CBFB45;
+}
+.section-3 p{
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.report{
+    font-size: 15px;
+}
+.reviews{
+    border: 1px solid lightgray;
+    padding: 30px;
+    border-radius: 20px;
+}
+.home-shoe{
+    border-radius: 20px;
+}
+.main-content{
+    width: 30%;
+    top: 20%;
+    left: 5%;
+}
+.main-content button{
+  
+    width: 80%;
+    height: 50px;
+    background: #000;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+}
+@media (max-width: 988px) {
+    .home-shoe{
+        height: 100vh;
+        object-fit: cover;
+    }
+    .main-content{
+        width: 80%;
+        top: 20%;
+        left: 10%;
+    }
+}
+.addcard {
+    user-select: none;
+}
+
+.boxx{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

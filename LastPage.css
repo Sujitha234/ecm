@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: black;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.section-1 h1{
+    color: #CBFB45;
+    font-weight: 800;
+}
+.section-1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+:is(.section-1 ,.section-5) button{
+
+    border: none;
+    color: black;
+    background-color: #CBFB45;
+    height: 50px;
+    width: 80%;
+    border-radius: 18px;
+    font-size: 110%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.section-2 h2{
+    color: #CBFB45;
+}
+.section-3{
+    margin-top: 50px;
+}
+:is(.section-3 h2, .section-4 h2, .section-6 h2,.section-7 h2){
+    color: #CBFB45;
+    text-align: center;
+    text-decoration: underline;
+}
+.section-4 h5{
+ color: #CBFB45;   
+}
+.section-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.section-5 h2{
+    color: #CBFB45;
+    font-weight: 800;
+}
+.module{
+    border: 1px solid black;
+    padding:  20px 8px 15px 18px;
+    border-radius: 17px;
+}
+.module h3{
+    color: #CBFB45;
+}
+.module p{
+    font-size: 15px;
+    color: aliceblue;
+}
+.section-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-7 hr{
+    color: aliceblue;
+    width: 70%;
+    border: 5px solid #636363;
+    text-align: center;
+    border-radius: 20px;
+}
+.img-fluid{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
