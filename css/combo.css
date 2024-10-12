@@ -1,0 +1,437 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+   min-width: 100%;
+}
+/* nav bar style start */
+#navbar
+{
+    background-color: #171717;
+}
+.navbar-brand
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    padding:0 1rem;
+}
+.navbar-brand span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin:0 1rem;
+}
+.navbar-brand  img:nth-child(1){
+    width: 70px;
+    height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.navbar-brand  img:nth-child(2){
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 0.5rem;
+    object-position: center;
+    object-fit: contain;
+}
+#myNavbar ul li a
+{
+    color: white !important;
+    font-weight: 600;
+   
+}
+.navbar-toggler
+{
+    padding:0.5rem 1rem !important;
+}
+.nav-tog-icon span
+{
+    color: white !important;
+}
+.dropdown
+{
+    padding-top:3px ;
+}
+#dropdownMenuLink
+{
+    border: none !important;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+}
+
+.dropdown-menu
+{
+    background-color: #171717!important;
+}
+.dropdown-menu li .nav-link:hover
+{
+    transform: translateX(5px);
+    transition: .3s ease-in-out;
+}
+/* nav style end */
+main{
+    position: relative;
+    margin-top:75px;
+    min-width: 100%;
+    background-color: #FFFFFF;
+    padding: 0 !important;
+}
+main section{
+    margin-top:4rem;
+}
+
+
+.combo-hero-img img{
+    height:100vh;
+    width: 50%;
+    object-fit:cover;
+    object-position:center;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.combo-hero-btn
+{
+    position: absolute;
+    top: 25%;
+    left:4%;
+    width:50%;
+    text-align: center;
+    border: none;
+    padding: 1rem;
+    text-align: left !important;
+}
+.combo-hero-btn p{
+    font-size: 2.3rem;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+.combo-hero-btn a{
+    background-color: #171717;
+    color: white !important;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:993px) 
+{
+    #dropdownMenuLink
+    {
+        border: none !important;
+        padding-left: 0;
+    }
+    .nav-lbtn
+    {
+        width: 100px;
+    }
+    
+}
+@media screen and (max-width:870px) 
+{
+    .combo-hero-btn
+    {
+        position: absolute;
+        top: 25%;
+        left:0;
+        width:100%;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        text-align: left !important;
+    }
+}
+@media screen and (max-width:640px) 
+{
+    .combo-hero-btn
+    {
+        text-align: center !important;
+    }
+}
+/* first combo */
+.combo-acc-section
+{
+    margin-top: 20px !important;
+    height: 100%;
+    padding: 2rem;
+    overflow: hidden !important;
+}
+.combo-acc-section h1{
+    color:#CBFB45;
+    line-height: 30px;
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.combo-acc-section p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.combo-card
+{
+    min-width:350px;
+    height: 100% !important;
+    display: flex !important;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px !important;
+    cursor: pointer;
+}
+.combo-card img{
+    width: 100%;
+    height: 350px !important;
+    object-fit: contain;
+    object-position: center;
+}
+.combo-card-info
+{
+    text-align: center;
+    height: 100 !important;
+    padding: 1rem ;
+    text-align: left !important;
+}
+.combo-card-info h3
+{
+    line-height: 38px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.combo-card-info p:nth-child(2)
+{
+    color: black !important;
+    font-weight: 600;
+    text-align: left !important;
+}
+.combo-card-info p:nth-child(2) span
+{
+    color: #636363 !important;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.combo-card-info p:nth-child(3)
+{
+    text-align: left !important;
+}
+.combo-color-circle
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    vertical-align: middle; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.myswiper
+{
+    overflow: hidden;
+}
+.myswiper .card-item
+{
+    margin: 1rem 0 !important;
+}
+/* second combo */
+
+.combo-racket-section
+{
+    margin-top: 20px !important;
+    height: 100%;
+    padding: 2rem;
+    overflow: hidden !important;
+}
+.combo-racket-section h1{
+    color:#CBFB45;
+    line-height: 30px;
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.combo-racket-section p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.combo-racket-card
+{
+    min-width:350px;
+    height: 100% !important;
+    display: flex !important;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px !important;
+    cursor: pointer;
+}
+.combo-racket-card img{
+    width: 100%;
+    height: 350px !important;
+    object-fit: contain;
+    object-position: center;
+}
+.combo-racket-card .badge
+{
+    background-color: #CBFB45;
+    color: #0A0A08;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    top:3%;
+    left:5%;
+    font-weight: 600;
+}
+.combo-racket-info
+{
+    height:100;
+    padding: 1rem ;
+    text-align:left !important;
+}
+.combo-racket-info h3
+{
+    line-height: 38px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.combo-racket-info .brand-name
+{
+    text-align: left;
+    color: #9E9E9E !important;
+    font-weight: 600;
+    margin: 0;
+}
+.combo-racket-info .description
+{
+    color: black !important;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+.combo-racket-info .price
+{
+    color: #CBFB45 !important;
+    font-weight: 600;
+    text-align: left;
+}
+.combo-racket-info .price span{
+    color:#999999 !important;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+.combo-racket-info .review
+{
+    text-align: left;
+    font-size: 1rem;
+}
+.combo-racket-info .review .star
+{
+    color: #FBDE45;
+    margin-right: 1rem;
+}
+.combo-racket-info .rc-btn
+{
+    background-color: #171717;
+    padding:0.4rem 2rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* footer style */
+.footer-con
+{
+    background-color: #171717 !important;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    padding: 5rem 2rem;
+}
+.footer-card
+{
+    background-color: #171717 !important;
+    color: white !important;
+    height: 100%;
+    padding: 0 1.5rem;
+    margin: 0.5rem 0;
+}
+.footer-img-warpper
+{
+    color: white;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    flex-wrap: nowrap !important;
+}
+.footer-img-warpper  img:nth-child(1){
+    width: 60px;
+    height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper  img:nth-child(2){
+    width: 90px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper a{
+    color: white;
+    text-decoration: none;
+}
+.footer-img-warpper span{
+    margin: 0 0.2rem;
+}
+.footer-card ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-card ul li{
+    text-align: left !important;
+    text-wrap: nowrap;
+    padding: 0.3rem 0;
+    color: #939393;
+    cursor: pointer;
+    width:100%;
+}
+.footer-card ul li:hover
+{
+    color: blue;
+}
+.footer-card h6{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.icon-wrapper
+{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+.icon-wrapper i{
+    margin-right:1rem;
+}
+.icon-wrapper i:hover{
+    color: blue;
+}
+
+@media screen and (max-width:756px) {
+    .footer-con
+    {
+        padding: 3rem 0.5rem;
+    }
+}
+

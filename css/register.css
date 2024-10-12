@@ -1,0 +1,127 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+   min-width: 100%;
+}
+.navbar-brand span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A0A08;
+    line-height: 40px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+#myNavbar ul li a
+{
+    color: #0A0A08 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+main{
+    position: absolute;
+    margin-top:75px;
+    min-width: 100%;
+    background-color: #FFFFFF;
+    padding: 0 !important;
+}
+.form-conatiner
+{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.form-header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+.form-brand
+{
+    margin: 1rem;
+}
+.form-header p{
+    font-size: 1.2rem;
+    text-wrap: nowrap;
+}
+.form-header-btn .btn
+{
+    padding:0.5rem 5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.or-cl
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding: 1rem;
+}
+.or-cl h5
+{
+    margin: 0;
+    width: 30%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    font-weight: 300;
+} 
+.or-cl h5 span 
+{ 
+     background:#fff; 
+     padding:0 10px; 
+}
+.main-form-con
+{
+    padding:1rem 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.main-form-con p{
+    text-align: center;
+}
+.main-form-con form
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.main-form-con form .btn
+{
+    background-color: #171717;
+    color:white;
+    font-weight: 600;
+}
+.main-form-con form label
+{
+    font-weight: 500;
+}
+.form-al-con
+{
+    overflow: hidden !important;
+}
+.main-form-con p{
+    margin: 1rem;
+}
+@media screen and (min-width:700px) {
+    .form-al-con
+    {
+        width: 100% !important;
+    }
+}
