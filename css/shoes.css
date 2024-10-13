@@ -102,14 +102,21 @@ main section{
 }
 .shoe-hero-img
 {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 .shoe-hero-img img{
-    height:100vh;
+    height:90vh;
     width: 100%;
     object-fit:cover;
     object-position:bottom;
+}
+@media screen and (max-width:650px) 
+{
+    .shoe-hero-img img
+    {
+        object-position:right;
+    }    
 }
 .shoe-hero-btn
 {
