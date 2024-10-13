@@ -17,23 +17,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./Style.css"/>
+
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 <body>
     <header >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
-            <div class="container-fluid nav-con">
-                <a href="" class="navbar-brand">
-                    <img src="./images/Frame 1.png" alt="Logo" class="d-inline-block align-top"/>
-                    <span>MIN 10 PRO</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="myNavbar">
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>   
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-tog-icon" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+              </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
@@ -41,21 +41,28 @@
                         <li class="nav-item">
                             <a class="nav-link" href="course.html">Courses</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="racket.html">Racket</a>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="nav-link" href="racket.html">Racket</a></li>
+                                  <li><a class="nav-link" href="shoes.html">Shoes</a></li>
+                                  <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                                  <li><a class="nav-link" href="combo.html">Combos</a></li>
+                                </ul>
+                              </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shoes.html">Shoes</a>
+                            <a class="nav-link" href="aboutus.html">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">About us</a>
+                            <a class="nav-link" href="contactus.html">Contact us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Contact us</a>
-                        </li>
-                        <button type="button" class="btn btn-dark">Login</button>
+                        <button type="button" class="btn btn-dark nav-lbtn" onClick="openpage('login.html')">Login</button>
                     </ul>
-                </div>
+            </div>
             </div>
         </nav>
     </header>
@@ -114,86 +121,89 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-3 c-col">
                         <div class="card fi-shoe-c" onClick="openpage('shoesSpec.html')">
-                            <img src="./images/Shoes/s-1.png" alt="fi-1" />
-                            <span class="badge">-10%</span>
+                            <img src="./images/Shoes/shoe 1.png" alt="fi-1" />
+                            <span class="badge">-36%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
-                                <p>Yonex Power Cushion 65 Z3</p>
-                                <p><span>$300</span>-$240.00</p>
+                                <p>Infinity Pro</p>
+                                <p>₹1,790.00 - <span>₹2,790.00</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3" onClick="openpage('shoesSpec.html')">
                         <div class="card fi-shoe-c">
-                            <img src="./images/Shoes/s-2.png" alt="fi-2" />
+                            <img src="./images/Shoes/shoe 2.jpg" alt="fi-2" />
+                            <span class="badge">-14%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
-                                <p>Li-Ning Ranger 7</p>
-                                <p>$240.00</p>
+                                <p>Yonex Power Cushion 65</p>
+                                <p>₹11,499.00 - <span>₹13,390.00</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3" onClick="openpage('shoesSpec.html')">
                         <div class="card fi-shoe-c">
-                            <img src="./images/Shoes/s-3.png" alt="fi-3" />
-                            <span class="badge">-10%</span>
+                            <img src="./images/Shoes/shoe 3.png" alt="fi-3" />
+                            <span class="badge">-25%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
-                                <p>Yonex Aerus Z2</p>
-                                <p><span>$300</span>-$240.00</p>
+                                <p>VICTOR A170JR-FM</p>
+                                <p>₹3,968.00 - <span>₹5,290.00</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3" onClick="openpage('shoesSpec.html')">
                         <div class="card fi-shoe-c">
-                            <img src="./images/Shoes/s-4.png" alt="fi-4" />
+                            <img src="./images/Shoes/shoe 4.jpg" alt="fi-4" />
+                            <span class="badge">-25%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
-                                <p>Adidas Adizero Uberschall</p>
-                                <p>$240.00</p>
+                                <p>VICTOR All-Around Series A610III-AB</p>
+                                <p>₹5,850.00 - <span>₹7,800.00</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3" onClick="openpage('shoesSpec.html')">
                         <div class="card fi-shoe-c">
-                            <img src="./images/Shoes/s-5.png" alt="fi-5" />
+                            <img src="./images/Shoes/shoe 5.png" alt="fi-5" />
+                            <span class="badge">-25%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
-                                <p>Li-Ning Shadow 4000</p>
-                                <p>$240.00</p>
+                                <p>VICTOR All-Around Series A970ACE</p>
+                                <p>₹9,675.00 - <span>₹12,900.00</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3" onClick="openpage('shoesSpec.html')">
                         <div class="card fi-shoe-c">
-                            <img src="./images/Shoes/s-6.png" alt="fi-6" />
-                            <span class="badge">-10%</span>
+                            <img src="./images/Shoes/shoe 6.png" alt="fi-6" />
+                            <span class="badge">-38%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
-                                <p>Victor SH-A920</p>
-                                <p><span>$300</span>-$240.00</p>
+                                <p>Raze</p>
+                                <p>₹1,599.00 - <span>₹2,590.00</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3" onClick="openpage('shoesSpec.html')">
                         <div class="card fi-shoe-c">
-                            <img src="./images/Shoes/s-7.png" alt="fi-7" />
-                            
+                            <img src="./images/Shoes/shoe 7.png" alt="fi-7" />
+                            <span class="badge">-25%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
-                                <p>Asics Gel-Blade 8</p>
-                                <p>$240.00</p>
+                                <p>VICTOR P8500II D</p>
+                                <p>₹8,925.00 - <span>₹11,900.00</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3" onClick="openpage('shoesSpec.html')">
                         <div class="card fi-shoe-c">
                             <img src="./images/Shoes/s-8.png" alt="fi-8" />
-                            <span class="badge">-10%</span>
+                            <span class="badge">-20%</span>
                             <div class="card-info">
                                 <p>Men/Women</p>
                                 <p>Victor P9200II</p>
-                                <p><span>$300</span>-$240.00</p>
+                                <p>₹19,920.00 - <span>₹24,900.00</span></p>
                             </div>
                         </div>
                     </div>
@@ -361,6 +371,73 @@
 
 
     </main>
+    <footer class="footer-con">
+        <div class="footer-content-con">
+            <div class="row">
+                <div class="col-8 col-md">
+                    <div class="card footer-card">
+                        <div class="footer-img-warpper">
+                            <a  href="index.html">
+                                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Support</h6>
+                        <ul>
+                            <li><a>Track tour Order</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Returns</a></li>
+                            <li><a>Shipping</a></li>
+                            <li><a>Payment Methods</a></li>
+                            <li><a>LN Protect Policy</a></li>
+                            <li><a>Terms and Conditions</a></li>
+                            <li><a>Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Self Service</h6>
+                        <ul>
+                            <li>
+                                <a>Racket Buying Guide</a>
+                            </li>
+                            <li><a>Badminton String Guide</a></li>
+                            <li><a>Feather Shuttlecock Guide</a></li>
+                            <li><a>FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Payment Methods</h6>
+                        <ul>
+                            <li>
+                               <a> VISA Credit/Debit</a>
+                            </li>
+                            <li><a>Mastered Credit/Debit</a></li>
+                            <li><a>UPI</a></li>
+                            <li><a>Cash on Delivery below 5k</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>stalk us on</h6>
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
