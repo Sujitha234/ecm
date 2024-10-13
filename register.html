@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rocket</title>
 
     <link rel="stylesheet" href="./css/register.css" />
 
@@ -22,14 +22,14 @@
 <body>
 
     <header >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
             <div class="container-fluid">
-            <a href="" class="navbar-brand">
-                <img src="../images/Frame 1.png" alt="Logo" class="d-inline-block align-top"/>
-                <span>MIN 10 PRO</span>
+            <a href="index.html" class="navbar-brand">
+                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>   
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="nav-tog-icon" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
               </button>
             <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="navbar-nav ms-auto">
@@ -39,19 +39,26 @@
                         <li class="nav-item">
                             <a class="nav-link" href="course.html">Courses</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="racket.html">Racket</a>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="nav-link" href="racket.html">Racket</a></li>
+                                  <li><a class="nav-link" href="shoes.html">Shoes</a></li>
+                                  <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                                  <li><a class="nav-link" href="combo.html">Combos</a></li>
+                                </ul>
+                              </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shoes.html">Shoes</a>
+                            <a class="nav-link" href="aboutus.html">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">About us</a>
+                            <a class="nav-link" href="contactus.html">Contact us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Contact us</a>
-                        </li>
-                        <button type="button" class="btn btn-dark">Login</button>
+                        <button type="button" class="btn btn-dark nav-lbtn" onClick="openpage('login.html')">Login</button>
                     </ul>
             </div>
             </div>
@@ -63,11 +70,12 @@
            <div class="form-al-con">
             <div class="form-header">
                 <a href="" class="form-brand">
-                    <img src="./images/Frame 1.png" alt="Logo" class="d-inline-block align-top"/>
+                    <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                    <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>
                 </a>
                 <p>Sign up for your Club Membership</p>
                 <div class="form-header-btn">
-                    <button type="button" class="btn btn-outline-dark">Continue with Google</button>
+                    <button type="button" class="btn btn-outline-light">Continue with Google</button>
                 </div>
            </div>
            <div class="or-cl"><h5><span>OR</span></h5></div>
@@ -111,7 +119,7 @@
                             </label>
                           </div>
                     </div>
-                    <div class="form-check col-md-7">
+                    <div class="form-check col-md-7 check-box">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Receive important information and order updates over Email?
@@ -119,7 +127,7 @@
                       </div>
                     <button type="submit" class="btn col-md-6">SUBMIT</button>
                   </form>
-                  <p>Already a member? Login with your Account.</p>
+                  <p>Already a member? <a href="./login.html">Login with your Account.</a> </p>
                   <p>By continuing, you agree to our Privacy Policy and Terms of Use.</p>
            </div>
            </div>
@@ -127,9 +135,75 @@
     </main>
 
 
+    <footer class="footer-con">
+        <div class="footer-content-con">
+            <div class="row">
+                <div class="col-8 col-md">
+                    <div class="card footer-card">
+                        <div class="footer-img-warpper">
+                            <a  href="index.html">
+                                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Support</h6>
+                        <ul>
+                            <li><a>Track tour Order</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Returns</a></li>
+                            <li><a>Shipping</a></li>
+                            <li><a>Payment Methods</a></li>
+                            <li><a>LN Protect Policy</a></li>
+                            <li><a>Terms and Conditions</a></li>
+                            <li><a>Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Self Service</h6>
+                        <ul>
+                            <li>
+                                <a>Racket Buying Guide</a>
+                            </li>
+                            <li><a>Badminton String Guide</a></li>
+                            <li><a>Feather Shuttlecock Guide</a></li>
+                            <li><a>FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Payment Methods</h6>
+                        <ul>
+                            <li>
+                               <a> VISA Credit/Debit</a>
+                            </li>
+                            <li><a>Mastered Credit/Debit</a></li>
+                            <li><a>UPI</a></li>
+                            <li><a>Cash on Delivery below 5k</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>stalk us on</h6>
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-
+    <script src="scroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>

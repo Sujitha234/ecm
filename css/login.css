@@ -1,33 +1,94 @@
 *
 {
-   background-color: #0A0A08;
-   font-family: "Poppins", sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 body
 {
    min-width: 100%;
 }
+#navbar
+{
+    background-color: #171717;
+}
+.navbar-brand
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    padding:0 1rem;
+}
 .navbar-brand span
 {
     font-size: 20px;
     font-weight: 700;
-    color: #0A0A08;
-    line-height: 40px;
-    margin-left: 1rem;
+    color: white;
     cursor: pointer;
+    margin:0 1rem;
+}
+.navbar-brand  img:nth-child(1){
+    width: 70px;
+    height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.navbar-brand  img:nth-child(2){
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 0.5rem;
+    object-position: center;
+    object-fit: contain;
 }
 #myNavbar ul li a
 {
-    color: #CBFB45 !important;
+    color: white !important;
     font-weight: 600;
-    text-decoration: underline;
+   
+}
+.navbar-toggler
+{
+    padding:0.5rem 1rem !important;
+}
+.nav-tog-icon span
+{
+    color: white !important;
+}
+.dropdown
+{
+    padding-top:3px ;
+}
+#dropdownMenuLink
+{
+    border: none !important;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+}
+@media screen and (max-width:993px) 
+{
+    #dropdownMenuLink
+    {
+        border: none !important;
+        padding-left: 0;
+    }
+    .nav-lbtn
+    {
+        width: 100px;
+    }
+}
+.dropdown-menu
+{
+    background-color: #171717!important;
+}
+.dropdown-menu li .nav-link:hover
+{
+    transform: translateX(5px);
+    transition: .3s ease-in-out;
 }
 main{
-    position: absolute;
+    position: relative;
     margin-top:75px;
     min-width: 100%;
-    background-color: black;
+    background-color: #171717;
     padding: 0 !important;
 }
 .form-conatiner
@@ -45,25 +106,27 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding-top: 1rem;
     font-weight: 600;
 }
 .form-brand
 {
     margin: 1rem;
 }
+.form-brand img{
+    height: 50px;
+}
+.form-brand img:nth-child(2){
+    margin-top: 5px;
+}
 .form-header p{
     font-size: 1.2rem;
     text-wrap: nowrap;
-    color: #CBFB45;
-
-
 }
 .form-header-btn
 {
     text-align: center;
-    color: #CBFB45;
-
+    color: white;
 }
 .form-header-btn p{
     margin:1rem;
@@ -74,11 +137,7 @@ main{
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 10px;
-    background-color: #CBFB45;
 }
-
-
-    
 .or-cl
 {
     width: 100%;
@@ -88,20 +147,20 @@ main{
     position: relative;
     align-items: center;
     padding: 1rem;
-    margin-left: 700px;
 }
 .or-cl h5
 {
     margin: 0;
     width: 30%; 
     text-align: center; 
-    border-bottom: 1px solid #CBFB45; 
+    border-bottom: 1px solid #fff; 
     line-height: 0.1em;
     font-weight: 300;
+    color: white;
 } 
 .or-cl h5 span 
 { 
-     background:#fff; 
+     background:#171717; 
      padding:0 10px; 
 }
 .main-form-con
@@ -111,8 +170,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin-left: 700px;
-    margin-top: -400px;
+    color: white;
 }
 .main-form-con p{
     text-align: center;
@@ -122,7 +180,6 @@ main{
     display: flex;
     justify-content: center;
     font-size: 1rem;
-    color: #CBFB45;
 }
 .main-form-con form label
 {
@@ -130,9 +187,13 @@ main{
 }
 .main-form-con form .btn
 {
-    background-color: #CBFB45;
-    color: black;
+    background-color: white;
+    color:171717;
     font-weight: 600;
+}
+.main-form-con form .btn:hover
+{
+    color: #171717 !important;
 }
 .form-al-con
 {
@@ -144,14 +205,94 @@ main{
 .main-form-con p{
     margin: 1rem;
 }
-
-.icon{
-    margin-left: -800px;
-    margin-top: 100px;
-    width: 700px;
+.footer-con
+{
+    background-color: #171717 !important;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    padding: 5rem 2rem;
+}
+.footer-card
+{
+    background-color: #171717 !important;
+    color: white !important;
+    height: 100%;
+    padding: 0 1.5rem;
+    margin: 0.5rem 0;
+}
+.footer-img-warpper
+{
+    color: white;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    flex-wrap: nowrap !important;
+}
+.footer-img-warpper  img:nth-child(1){
+    width: 60px;
+    height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper  img:nth-child(2){
+    width: 90px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper a{
+    color: white;
+    text-decoration: none;
+}
+.footer-img-warpper span{
+    margin: 0 0.2rem;
+}
+.footer-card ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-card ul li{
+    text-align: left !important;
+    text-wrap: nowrap;
+    padding: 0.3rem 0;
+    color: #939393;
+    cursor: pointer;
+    width:100%;
+}
+.footer-card ul li:hover
+{
+    color: blue;
+}
+.footer-card h6{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.icon-wrapper
+{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+.icon-wrapper i{
+    margin-right:1rem;
+}
+.icon-wrapper i:hover{
+    color: blue;
 }
 
-.form-header-btn{
-    margin-left: 700px;
-
+@media screen and (max-width:756px) {
+    .footer-con
+    {
+        padding: 3rem 0.5rem;
+    }
 }

@@ -85,15 +85,23 @@ main{
 main section{
     margin-top:4rem;
 }
-
-
+.combo-hero-sec
+{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.combo-hero-img
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #fbed73;
+}
 .combo-hero-img img{
     height:100vh;
-    width: 50%;
+    width: 100%;
     object-fit:cover;
     object-position:center;
-    margin-top: 50px;
-    margin-left: 350px;
 }
 .combo-hero-btn
 {
@@ -434,4 +442,3 @@ main section{
         padding: 3rem 0.5rem;
     }
 }
-

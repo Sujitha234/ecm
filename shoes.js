@@ -33,3 +33,4 @@ ScrollReveal({
 ScrollReveal().reveal('.section-1 ,.section-2,.para1,.para2,.r1,.scroll-img' ,{delay:5,origin:'bottom',});
 
 
+

@@ -19,38 +19,45 @@
 </head>
 <body>
     <header >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
-            <div class="container-fluid nav-con">
-                <a href="" class="navbar-brand">
-                    <img src="./images/Frame 1.png" alt="Logo" class="d-inline-block align-top"/>
-                    <span>MIN 10 PRO</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="myNavbar">
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>   
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-tog-icon" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+              </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Courses</a>
+                            <a class="nav-link" href="course.html">Courses</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="nav-link" href="racket.html">Racket</a></li>
+                                  <li><a class="nav-link" href="shoes.html">Shoes</a></li>
+                                  <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                                  <li><a class="nav-link" href="combo.html">Combos</a></li>
+                                </ul>
+                              </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="racket.html">Racket</a>
+                            <a class="nav-link" href="aboutus.html">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shoes.html">Shoes</a>
+                            <a class="nav-link" href="contactus.html">Contact us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Contact us</a>
-                        </li>
-                        <button type="button" class="btn btn-dark">Login</button>
+                        <button type="button" class="btn btn-dark nav-lbtn" onClick="openpage('login.html')">Login</button>
                     </ul>
-                </div>
+            </div>
             </div>
         </nav>
     </header>
@@ -372,50 +379,7 @@
                     </div>
                 </div>
             </div>
-            <div class="combo-off-container">
-                <h2>Frequently bought together</h2>
-                <div class="combo-card-con">
-                    <div class="row d-flex">
-                        <div class="col-sm-3 col-md-3">
-                            <div class="card combo-card">
-                                <img src="./images/product sec/pri-7.png" alt="combopack-1" loading="lazy" />
-                                <div class="card-info">
-                                    <p>G-Force 5900 Superlite</p>
-                                    <p>₹1900</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-1 plus-symbol">
-                            <i class="fa-solid fa-plus"></i>
-                        </div>
-                        <div class="col-sm-3 col-md-3">
-                            <div class="card combo-card">
-                                <img src="./images/accessories/image (8).png" alt="combopack-2" loading="lazy" />
-                                <div class="card-info">
-                                    <p>Yonex Exbolt 65 10m</p>
-                                    <p>₹1600</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-1 plus-symbol">
-                            <i class="fa-solid fa-plus"></i>
-                        </div>
-                        <div class="col-sm-3 col-md-3">
-                            <div class="card combo-card">
-                                <img src="./images/accessories/image (12).png" alt="combopack-3" loading="lazy" />
-                                <div class="card-info">
-                                    <p>Yonex Sunrr 2225</p>
-                                    <p>₹3400</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-3 col-lg-4 combo-cart-btn">
-                            <p>Total Price:-<span>₹6900</span></p>
-                            <p class="cart-btn"><a>ADD ALL 3 TO BAG</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div class="add-cart">
                 <div class="cart-con">
                     <p>Li-Ning</p>
@@ -425,7 +389,73 @@
             </div>
         </div>
     </main>
-   
+    <footer class="footer-con">
+        <div class="footer-content-con">
+            <div class="row">
+                <div class="col-8 col-md">
+                    <div class="card footer-card">
+                        <div class="footer-img-warpper">
+                            <a  href="index.html">
+                                <img src="./images/logo_m1.png" alt="Logo" class="d-inline-block align-top"/>
+                                <img src="./images/logo_m2.png" alt="Logo" class="d-inline-block align-top"/>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Support</h6>
+                        <ul>
+                            <li><a>Track tour Order</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Returns</a></li>
+                            <li><a>Shipping</a></li>
+                            <li><a>Payment Methods</a></li>
+                            <li><a>LN Protect Policy</a></li>
+                            <li><a>Terms and Conditions</a></li>
+                            <li><a>Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Self Service</h6>
+                        <ul>
+                            <li>
+                                <a>Racket Buying Guide</a>
+                            </li>
+                            <li><a>Badminton String Guide</a></li>
+                            <li><a>Feather Shuttlecock Guide</a></li>
+                            <li><a>FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>Payment Methods</h6>
+                        <ul>
+                            <li>
+                               <a> VISA Credit/Debit</a>
+                            </li>
+                            <li><a>Mastered Credit/Debit</a></li>
+                            <li><a>UPI</a></li>
+                            <li><a>Cash on Delivery below 5k</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md">
+                    <div class="card footer-card">
+                        <h6>stalk us on</h6>
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>

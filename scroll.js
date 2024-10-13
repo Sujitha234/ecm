@@ -13,7 +13,8 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.at-text,.coll-text,.sacc-text', { delay: 300 ,origin:'left'});
-ScrollReveal().reveal('.atheletes-images div,.collection-list .coll-col,.bs-list .bs-col,.sacc-list .sacc-col', { delay: 500 ,origin:'bottom',interval: 200});
+ScrollReveal().reveal('.atheletes-images div', { delay: 500 ,origin:'bottom',interval: 200});
+ScrollReveal().reveal('.swiper-wrapper',{delay:200,orgin:'bottom'});
 ScrollReveal().reveal('.text-content h2', { delay: 300 ,origin:'left',duration:1000});
 ScrollReveal().reveal('.text-content p', { delay: 400 ,origin:'left',duration:1000});
 ScrollReveal().reveal('.text-content a', { delay: 500 ,origin:'left',duration:1000});
