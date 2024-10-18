@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="racketdata.js"></script>
+
 </head>
 <body>
     <header >
@@ -68,42 +71,42 @@
                 <div class="row images">
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-1.png" alt="pr-1" loading="lazy">
+                            <img id="main-img" alt="pr-1" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-2.png" alt="pr-2" loading="lazy">
+                            <img id="prv-1"  alt="pr-2" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-3.png" alt="pr-1" loading="lazy">
+                            <img id="prv-2"  alt="pr-1" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-4.png" alt="pr-1" loading="lazy">
+                            <img id="prv-3"  alt="pr-1" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-5.png" alt="pr-1" loading="lazy">
+                            <img id="prv-4"  alt="pr-1" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-6.png" alt="pr-1" loading="lazy">
+                            <img id="prv-5"  alt="pr-1" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-7.png" alt="pr-1" loading="lazy">
+                            <img id="prv-6"  alt="pr-1" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 img-coll">
                         <div class="card">
-                            <img src="./images/product sec/pri-8.png" alt="pr-1" loading="lazy">
+                            <img id="prv-7"  alt="pr-1" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -111,8 +114,8 @@
             <div class="col-sm-12 col-md-4 prod-details">
                 <div class="product-basicdetails">
                     <div class="titles">
-                        <h3>G-Force 5900 Superlite</h3>
-                        <p><span><i class="fa-solid fa-indian-rupee-sign"></i>1,990.00</span> <span class="old-off"><i class="fa-solid fa-indian-rupee-sign"></i>4,990.00</span> <span style="color: #2F5DDC;">(60% OFF)</span></p>
+                        <h3 id="product-name">G-Force 5900 Superlite</h3>
+                        <p><span id="product-cprice">1,990.00</span>-<span class="old-off" id="product-oprice">4,990.00</span><span id="discount-per" style="color: #2F5DDC;">(60% OFF)</span></p>
                         <p class="hg-btn"> <i class="fa fa-star checked"></i>Highly Rated</p>
                     </div>
                     <div class="weight">
@@ -161,7 +164,7 @@
                 <div class="buy-section">
                     <div class="add-to-bag">
                         <button class="add-btn">
-                            ADD TO BAG ----<span><i class="fa-solid fa-indian-rupee-sign"></i>1,999.0</span>
+                            ADD TO BAG ----<span id="product-cartprice">1,999.0</span>
                         </button>
                     </div>
                     <div class="express-shipping-1">
@@ -186,7 +189,8 @@
                     </p>
                     <div class="collapse" id="detailscollapse">
                         <div class="card det-card">
-                                Take your game to the next level with the Li-Ning G Force 5900
+                                <span id="product-description">
+                                    Take your game to the next level with the Li-Ning G Force 5900
                                 Superlite. This head-heavy racket is specially engineered for
                                 aggressive attacking shots. The flexible shaft provides added power
                                 and control for your smashes while the slim TB Nano shaft
@@ -195,6 +199,7 @@
                                 With its Optimized head-heavy balance and flexible shaft, the G
                                 Force 5900 Superlite gives you the power and maneuverability you
                                 need to dominate the court
+                                </span>
                                 <div class="details-tab-box">
                                     <table class="table-dark">
                                             <tr >
@@ -382,9 +387,8 @@
             
             <div class="add-cart">
                 <div class="cart-con">
-                    <p>Li-Ning</p>
-                    <h4>G-Force 5900 Superlite</h4>
-                    <p class="cart-btn"><a>ADD TO BAG ---- <span><i class="fa-solid fa-indian-rupee-sign"></i>1,990.00</span></a></p>
+                    <h4 id="product-fname"></h4>
+                    <p class="cart-btn"><a>ADD TO BAG ---- <span id="final-cartprice"></span></a></p>
                 </div>
             </div>
         </div>

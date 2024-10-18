@@ -265,7 +265,7 @@ main{
 .bs-card
 {
     max-width: 400px !important;
-    height:420px !important;
+    height:100% !important;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
@@ -291,8 +291,10 @@ main{
     font-size: 1rem;
     font-weight: 500;
     position: relative;
-    
     margin-top: 0.5rem;
+}
+.bs-card-info p span{
+    text-decoration: line-through;
 }
 .bs-color-circle
 {
