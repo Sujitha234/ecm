@@ -1,0 +1,243 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+   min-width: 100%;
+}
+/* nav bar style start */
+#navbar
+{
+    background-color: #171717;
+}
+.navbar-brand
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    padding:0 1rem;
+}
+.navbar-brand span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin:0 1rem;
+}
+.navbar-brand  img:nth-child(1){
+    width: 70px;
+    height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.navbar-brand  img:nth-child(2){
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 0.5rem;
+    object-position: center;
+    object-fit: contain;
+}
+#myNavbar ul li a
+{
+    color: white !important;
+    font-weight: 600;
+   
+}
+.navbar-toggler
+{
+    padding:0.5rem 1rem !important;
+}
+.nav-tog-icon span
+{
+    color: white !important;
+}
+.dropdown
+{
+    padding-top:3px ;
+}
+#dropdownMenuLink
+{
+    border: none !important;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+}
+@media screen and (max-width:993px) 
+{
+    #dropdownMenuLink
+    {
+        border: none !important;
+        padding-left: 0;
+    }
+    .nav-lbtn
+    {
+        width: 100px;
+    }
+}
+.dropdown-menu
+{
+    background-color: #171717!important;
+}
+.dropdown-menu li .nav-link:hover
+{
+    transform: translateX(5px);
+    transition: .3s ease-in-out;
+}
+/* nav end */
+main{
+    position: relative;
+    margin-top:100px;
+    min-width: 100%;
+    background-color: #FFFFFF;
+    padding: 0 !important;
+}
+.product section,.all-product-container
+{
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+}
+.all-product-container
+{
+    padding: 2rem;
+}
+.product-container
+{
+    margin-top: 1rem;
+}
+.prcard
+{
+    max-width: 400px !important;
+    height:450px !important;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.badge
+{
+    background-color: #CBFB45;
+color: #0A0A08 !important;
+position: absolute;
+padding: 0.5rem 1rem;
+top:3%;
+left:5%;
+}
+.prcard img{
+    min-width: 300px !important;
+    min-height: 300px;
+    object-fit: contain;
+    object-position: top;
+}
+.prcard-info
+{
+    height: 100%;
+    padding: 1rem;
+}
+.prcard-info h3{
+    font-size: 1.2rem;
+}
+.prcard-info p{
+    color:#636363;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    margin-top: 0.5rem;
+}
+.prcard-info p span{
+    text-decoration: line-through;
+}
+/* footer */
+.footer-con
+{
+    background-color: #171717 !important;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    padding: 5rem 2rem;
+}
+.footer-card
+{
+    background-color: #171717 !important;
+    color: white !important;
+    height: 100%;
+    padding: 0 1.5rem;
+    margin: 0.5rem 0;
+}
+.footer-img-warpper
+{
+    color: white;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    flex-wrap: nowrap !important;
+}
+.footer-img-warpper  img:nth-child(1){
+    width: 60px;
+    height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper  img:nth-child(2){
+    width: 90px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper a{
+    color: white;
+    text-decoration: none;
+}
+.footer-img-warpper span{
+    margin: 0 0.2rem;
+}
+.footer-card ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-card ul li{
+    text-align: left !important;
+    text-wrap: nowrap;
+    padding: 0.3rem 0;
+    color: #939393;
+    cursor: pointer;
+    width:100%;
+}
+.footer-card ul li:hover
+{
+    color: blue;
+}
+.footer-card h6{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.icon-wrapper
+{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+.icon-wrapper i{
+    margin-right:1rem;
+}
+.icon-wrapper i:hover{
+    color: blue;
+}
+
+@media screen and (max-width:756px) {
+    .footer-con
+    {
+        padding: 3rem 0.5rem;
+    }
+}
