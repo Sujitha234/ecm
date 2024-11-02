@@ -442,3 +442,125 @@ main section{
         padding: 3rem 0.5rem;
     }
 }
+header {
+
+    background-color: #333;
+
+    color: #fff;
+
+    padding: 1rem 0;
+
+    text-align: center;
+
+}
+
+
+
+.combo-container {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 2rem;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.combo {
+
+    background-color: #fff;
+
+    border: 1px solid #ddd;
+
+    padding: 1rem;
+
+    width: 30%;
+
+    margin: 1rem;
+
+    text-align: center;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.combo img {
+
+    width: 100%;
+
+    height: auto;
+
+    margin: 1rem 0;
+
+}
+
+
+
+.combo h2 {
+
+    color: #333;
+
+    font-size: 1.5rem;
+
+}
+
+
+
+.combo p {
+
+    color: #666;
+
+    font-size: 1rem;
+
+}
+
+
+
+.btn {
+
+    background-color: #28a745;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 1rem;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+
+.btn:hover {
+
+    background-color: #218838;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .combo {
+
+        width: 100%;
+
+        margin: 1rem 0;
+
+    }
+
+}
+
