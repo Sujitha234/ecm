@@ -503,3 +503,16 @@ main section{
         text-wrap: nowrap;
     }
 }
+
+.card-info {
+    text-align: center;
+}
+
+.card-info h5 {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.card-info p {
+    margin-right: 10px; /* Adjust this value to control the amount of right alignment */
+}S
