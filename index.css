@@ -87,6 +87,7 @@ body {
 
 .card-body {
     font-weight: 600;
+    text-align: center !important;
 }
 
 .last-racket h1 {
@@ -293,6 +294,9 @@ body {
     font-weight: 900;
     font-family: Poppins;
     border-radius: 29px;
+}
+.buttons1 button{
+    border-radius: 20px; padding: 0.5rem; background-color: #CBFB45; outline :none;border:none
 }
 
 .about-second-content p {
