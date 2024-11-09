@@ -328,10 +328,6 @@ body {
     }
 }
 
-.Popular-courses {
-    color: black;
-    margin-top: 50px !important;
-}
 
 
 
@@ -539,3 +535,7 @@ body {
     transform: translateX(5px);
     transition: .3s ease-in-out;
 }
+
+/*  */
+
+
