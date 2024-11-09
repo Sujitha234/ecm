@@ -115,7 +115,8 @@ main section{
 {
     .shoe-hero-img img
     {
-        object-position:right;
+        object-position:center;
+        object-fit:cover;
     }    
 }
 .shoe-hero-btn
