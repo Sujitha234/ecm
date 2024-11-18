@@ -539,3 +539,64 @@ body {
     transform: translateX(5px);
     transition: .3s ease-in-out;
 }
+
+@media (max-width: 1400px) {
+    .racket-box1, .racket-box2, .racket-box3, .racket-box4 {
+        position: static; 
+        top: auto;
+        left: auto;
+        right: auto;
+    }
+
+    .last-racket {
+        position: static; 
+        top: auto;
+        left: auto;
+    }
+}
+
+@media (max-width: 988px) {
+    .racket-box1, .racket-box2, .racket-box3, .racket-box4 {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 10px 0; 
+    }
+
+    .last-racket {
+        position: static;
+        top: auto;
+        left: auto;
+    }
+
+    .course-categories .frame53 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .racket-box1, .racket-box2, .racket-box3, .racket-box4 {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 10px 0; 
+    }
+
+    .last-racket {
+        position: static;
+        top: auto;
+        left: auto;
+    }
+}
+
+/*  */
+.bg-dark img{
+    height: 250px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 10px;
+}
