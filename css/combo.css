@@ -103,6 +103,16 @@ main section{
     object-fit:cover;
     object-position:center;
 }
+.co-btn
+{
+    background-color: #171717;
+    padding:0.4rem 2rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
 .combo-hero-btn
 {
     position: absolute;
@@ -564,3 +574,4 @@ header {
 
 }
 
+/*  */
