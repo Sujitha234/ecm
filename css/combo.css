@@ -114,6 +114,13 @@ main section{
     object-fit:cover;
     object-position:center;
 }
+@media screen and (max-width:993px) 
+{
+    .combo-hero-img img
+    {
+        object-position:left;
+    }
+}
 .co-btn
 {
     background-color: #171717;
