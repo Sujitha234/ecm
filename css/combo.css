@@ -64,7 +64,18 @@ body
     padding-left: 0.5rem;
     padding-right:0.5rem;
 }
-
+@media screen and (max-width:993px) 
+{
+    #dropdownMenuLink
+    {
+        border: none !important;
+        padding-left: 0;
+    }
+    .nav-lbtn
+    {
+        width: 100px;
+    }
+}
 .dropdown-menu
 {
     background-color: #171717!important;
